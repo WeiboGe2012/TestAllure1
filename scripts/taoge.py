@@ -12,7 +12,7 @@ class TestAbc:
     @allure.severity(allure.severity_level.BLOCKER)
     def test_b(self):
         allure.attach('描述', '我是测试步骤002的描述～～～')
-        assert 0
+        assert 1
 
 
 if __name__ == '__main__':
